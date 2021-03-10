@@ -15,5 +15,7 @@ We are creating a business website that sells meal prep packages.
 7. FAQs Page
 
 ## Example websites:
-https://www.rankingdak.com/
-https://www.kurly.com/shop/main/index.php 
+https://www.rankingdak.com/ \
+https://www.kurly.com/shop/main/index.php \
+https://www.prepmymeal.de/?lang=en \
+https://www.myprotein.com/
