@@ -5,7 +5,7 @@
 ## MealPrep Package selling website
 We are creating a business website that sells meal prep packages. 
 
-## Seven pages: 
+## Seven pages
 1. Home Page: Abe
 2. About Page: Gun
 3. Product Page-Vegan: 
@@ -14,8 +14,21 @@ We are creating a business website that sells meal prep packages.
 6. Event(promotion) Page: Sally
 7. FAQs Page
 
-## Example websites:
+## Example website
 https://www.rankingdak.com/ \
 https://www.kurly.com/shop/main/index.php \
 https://www.prepmymeal.de/?lang=en \
 https://www.myprotein.com/
+
+## Start a local server
+To run and test out jquery functions on the local machine, 
+you need to host a local server. \
+First on the terminal, cd into the root directory of the repository, and type in the python command: 
+'''
+python -m http.server 8000
+'''
+Then on web, go the url: 
+'''
+http://localhost:8000/
+'''
+which will show the content in our index.html.
