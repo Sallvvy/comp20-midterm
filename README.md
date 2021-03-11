@@ -21,19 +21,6 @@ https://www.kurly.com/shop/main/index.php \
 https://www.prepmymeal.de/?lang=en \
 https://www.myprotein.com/
 
-## Start a local server
-To run and test out jquery functions on the local machine, 
-you need to host a local server. \
-First on the terminal, cd into the root directory of the repository, and type in the python command: 
-```
-python -m http.server 8000
-```
-Then on web, go the url: 
-```
-http://localhost:8000/
-```
-which will show the content in our index.html.
-
 ## Initial setup
 The working steps are: 
 1. clone the remote (online) repository to your local computer
@@ -55,6 +42,19 @@ git push -u origin master
 ```
 "origin" is a shorthand name for the remote repository that a project was originally cloned from. \
 "master" is the name of the default branch.
+
+## Start a local server
+To run and test out jquery functions on the local machine, 
+you need to host a local server. \
+First on the terminal, cd into the root directory of the repository, and type in the python command: 
+```
+python -m http.server 8000
+```
+Then on web, go the url: 
+```
+http://localhost:8000/
+```
+which will show the content in our index.html.
 
 ## How to work with git branch
 To avoid merge conflicts, you want to make your own working branch, test your codes, and merge into master branch when there is no error within your branch.
