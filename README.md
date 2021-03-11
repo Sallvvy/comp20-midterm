@@ -55,7 +55,8 @@ Then on web, go the url:
 ```
 http://localhost:8000/
 ```
-which will show the content in our index.html.
+which will show the content in our index.html.\
+You also need to 'hard reload' the local host to avoid browser caching. Chrome command to hard reload the page is command + shfit + r.
 
 ## How to work with git branch
 To avoid merge conflicts, you want to make your own working branch, test your codes, and merge into master branch when there is no error within your branch.
