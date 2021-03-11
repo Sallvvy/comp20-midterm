@@ -47,16 +47,20 @@ git push -u origin master
 ## Start a local server
 To run and test out jquery functions on the local machine, 
 you need to host a local server. \
-First on the terminal, cd into the root directory of the repository, and type in the python command: 
+First on the terminal, cd into the PARENT directory of the root directory of the repository \
+i.e. Let the pwd of the root repository is: Desktop/folderA/comp20-midterm. Then before you start the local server, 
+you want to cd to Desktop/folderA. This is to be in sync with github pages src path.
+Then, type in the python command: 
 ```
 python -m http.server 8000
 ```
-Then on web, go the url: 
+Then on your web browser(i.e. Chrome), go the following url: 
 ```
 http://localhost:8000/
 ```
-which will show the content in our index.html.\
-You also need to 'hard reload' the local host to avoid browser caching. Chrome command to hard reload the page is command + shfit + r.
+which will the list of directories in the current location. Simply click the "comp20-midterm" directory.\
+When you work on the local server, you also want to 'hard reload' the page to avoid browser caching. \
+Chrome command to hard reload the page is command + shfit + r.
 
 ## How to work with git branch
 To avoid merge conflicts, you want to make your own working branch, test your codes, and merge into master branch when there is no error within your branch.
