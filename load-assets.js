@@ -1,5 +1,5 @@
 $("#main-container").ready($(function() {
-    $("#header").load("/assets/header.html");
-    $("#navigation").load("/assets/navigation.html");
-    $("footer").load("/assets/footer.html");
+    $("#header").load("/comp20-midterm/assets/header.html");
+    $("#navigation").load("/comp20-midterm/assets/navigation.html");
+    $("footer").load("/comp20-midterm/assets/footer.html");
 }))
