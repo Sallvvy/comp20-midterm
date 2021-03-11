@@ -43,6 +43,7 @@ git push -u origin master
 "origin" is a shorthand name for the remote repository that a project was originally cloned from. \
 "master" is the name of the default branch.
 
+
 ## Start a local server
 To run and test out jquery functions on the local machine, 
 you need to host a local server. \
