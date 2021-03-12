@@ -1,0 +1,31 @@
+#header-container h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#header-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#navigation-container ul {
+    float: right;
+    margin-right: 20px;
+}
+
+#navigation-container ul li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 5 px;
+}
+
+#navigation-container ul li a {
+    color: #000000;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#navigation li:hover a {
+    color: #681286;
+    text-decoration: underline;
+}
