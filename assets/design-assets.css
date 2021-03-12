@@ -15,6 +15,17 @@
 
 #navigation-container ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 40px;
     margin: 0 5 px;
+}
+
+#navigation-container ul li a {
+    color: #000000;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#navigation li:hover a {
+    color: #681286;
+    text-decoration: underline;
 }
