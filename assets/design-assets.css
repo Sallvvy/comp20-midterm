@@ -1,0 +1,9 @@
+#header-container h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#header-container {
+    text-align: center;
+    padding: 20px;
+}
