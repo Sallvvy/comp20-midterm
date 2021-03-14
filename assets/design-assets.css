@@ -1,7 +1,11 @@
+/* header */
 #header-container h1 {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
+    font-family: Apple Chancery, cursive;
+    letter-spacing: 2px;
+    color: #3452bb;
 }
 
 #header-container {
@@ -9,6 +13,7 @@
     padding: 10px;
 }
 
+/* navigation */
 #navigation-container {
     float: inline-start;
 }
@@ -28,13 +33,18 @@
     font-size: 17px;
     text-transform: uppercase;
     margin: 0 10px;
+    border-radius: 3px;
 }
 
 #navigation li:hover a {
-    color: #681286;
-    text-decoration: underline;
+    color: #3452bb;
 }
 
+#navigation .active {
+    color: #3452bb;
+}
+
+/* navigation bar mobile responsiveness */
 input[type="checkbox"] {
     display: none;
 }
@@ -43,10 +53,12 @@ input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
     background-image: url('/comp20-midterm/images/list.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30px;
-    width: 30px;
+    height: 24px;
+    width: 24px;
 
-    float: inherit;
+    position: absolute;
+    top: 20px;
+    left: 10px;
     color: #000000;
     line-height: 40px;
     cursor: pointer;
@@ -55,31 +67,29 @@ input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
 }
 
 @media (max-width: 858px) {
-    #header-container h1 {
-        font-size: 30px;
-    }
     input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
         display: block;
     }
     #check:checked ~ ul {
         left: 0;
+        transition: 0.5s;
     }
     #navigation-container ul {
         position: fixed;
         width: 100%;
         height: 100vh;
         background: #ffffff;
-        top: 90px;
+        top: 60px;
         left: -100%;
         text-align: center;
+        transition: 0.5s;
     }
     #navigation-container ul li:first-child {
-        margin: 0px;
+        margin: 10px 0px;
     }
     #navigation-container ul li {
         display: block;
         margin: 30px 0;
         line-height: 30px;
     }
-
 }
