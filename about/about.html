@@ -8,8 +8,24 @@
     <link rel="stylesheet" href="/comp20-midterm/assets/design-assets.css">
     <link rel="stylesheet" href="https://mooozi.github.io/lectures/css/reset.css">
     <link rel="stylesheet" href="https://mooozi.github.io/lectures/css/font.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../load-assets.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+
+
+        .text-block {
+
+    
+            background-color:#9ad7ae99;
+            margin-bottom: 25px;
+            }
+
+            </style>
 
 </head>
 <body>
@@ -24,7 +40,111 @@
 
         <!-- TODO -->
         <article id="about-container">
-            About page
+            <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+            <img src="about1.jpg" alt="Los Angeles">
+            <div class="carousel-caption text-block">
+        <h2>Become a Home Chef in Your Own Kitchen!</h2>
+        <p>Hassle-Free Meals Ready in 30 Minutes</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="about2.jpg" alt="Chicago">
+      <div class="carousel-caption text-block">
+        <h2>Stress-Free Grocery Shopping</h2>
+        <p>Organically Sourced Ingredients Right to Your Door at Peak Freshness</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="about3.jpg" alt="New York">
+      <div class="carousel-caption text-block">
+        <h2>Enjoy a Professional-Quality Meal Made by You!</h2>
+        <p>With Our Variety of Easy-to-Follow Recipes, You Will Never Get Tired of Home Food</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+<div class="container marketing">
+
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="rounded" src="icon1.png" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded" src="icon2.png" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="rounded" src="icon3.png" width="140" height="140">
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Our Mission</h2>
+      <p class="lead"></p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto" src="company1.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Our Story</h2>
+      <p class="lead">During this pandemic, dining out and grocery shopping had been a challenge. Also, food delivery options were limited. We wanted to bring back the joy of trying new food, cooking with fresh ingredients, and basically, the joy of eating into our life. With that thought, we founded our company in 2021. We know the best way to fight this virus is to stay healthy and eat healthy, and our goal is to provide you with the delicious way to be nutritionally balanced. The nutritional quality of our products is backed by our allied nutritionists and health assistants, and all of our recipes are backed by our allied group of chefs.</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img class="featurette-image img-fluid mx-auto" src="company2.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading"></span></h2>
+      <p class="lead"></p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-fluid mx-auto" src="company3.jpg" alt="Generic placeholder image">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->
+
+
         </article> <!-- article #about-container -->
 
         <footer id="footer-container">
@@ -32,3 +152,6 @@
         </footer> <!-- footer-->
     </div>
 </body>
+
+
+
