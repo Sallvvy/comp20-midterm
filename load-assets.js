@@ -3,5 +3,3 @@ window.onload=function() {
     $("#navigation-container").load("/comp20-midterm/assets/navigation.html");
     $("#footer-container").load("/comp20-midterm/assets/footer.html");
 }
-
-var 
