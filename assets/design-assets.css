@@ -74,6 +74,9 @@ input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
     input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
         display: block;
     }
+    #check:checked html, body {
+        margin: 0; height: 100%; overflow: hidden;
+    }
     #check:checked ~ ul {
         left: 0;
         transition: 0.5s;
