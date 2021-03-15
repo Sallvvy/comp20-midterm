@@ -87,6 +87,7 @@ input[type="checkbox"] + label, input[type="checkbox"]:checked + label {
         left: -100%;
         text-align: center;
         transition: 0.5s;
+        z-index: 999;
     }
     #navigation-container ul li:first-child {
         margin: 10px 0px;
