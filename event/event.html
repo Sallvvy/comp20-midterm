@@ -1,15 +1,101 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Event</title>
+	<!--Unsolved: OnClick=" location.href='link.html' "-->
+    <title>Events</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../design.css">
+	
+	<style>
+		@media screen and (min-width: 736px){
+			#event-container{
+			grid-template-columns: repeat(3, 1fr);
+			}
+		}
+		body{
+			margin:0;
+			width: 100vw;
+			position: relative;
+		}
+		img{
+			object-fit: cover;
+		}
+		#newevent_container{
+			padding:15px;
+
+			display:block;
+			background-color:#BDD08B;
+			text-align: center;
+			margin-top:150px;
+			height:20px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		#event-container{
+			display:grid;
+			
+			margin-left:20px;
+			margin-right:20px;
+			margin-top: 30px;
+			position: relative;
+			padding: 10px;
+			grid-gap:2em;
+			
+		}
+		/*@media screen and (max-width: 736px){
+			#event-container{
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			}
+		}*/
+		
+		.box {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			position:relative;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			height: 170px;
+			/*background-color: #F7A543;*/
+		}
+		
+		.title{
+			padding: 15px;
+			font-size: 150%;
+			color:#323232;
+		}
+		.detail{
+			padding: 15px;
+			padding-top:0px;
+			font-size:110%;
+			font-family;
+			color: #FFF;
+		}
+		.btn{
+			display: inline-block;
+			background-color: #302424;
+			border: none;
+			border-radius: 5px;
+			color: #FFF;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+			position: relative;
+		}
+		.btn:hover{
+			background-color: #FFFFFF; 
+			border: solid 1px #000;
+			color: #000000;
+		}
+	</style>
+	<!--
+	<link rel="stylesheet" href="../design.css">
     <link rel="stylesheet" href="./design-event.css">
     <link rel="stylesheet" href="/comp20-midterm/assets/design-assets.css">
     <link rel="stylesheet" href="https://mooozi.github.io/lectures/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../load-assets.js"></script>
+	-->
 
 </head>
 <body>
@@ -21,10 +107,73 @@
         <nav id="navigation-container">
             <div id="navigation"></div>
         </nav> <!-- /navigation-container -->
-
+		
+		<div id="newevent_container">
+			<div style="font-size:20px">10% off on all orders! Ends today!
+				<!--update link!-->
+				<input type="button" class="btn" value="Shop Now" OnClick="location.href='.html'">
+			</div>
+		</div>
         <!-- TODO -->
         <article id="event-container">
-            Event page
+				<div class="box">
+					<div class="sect1" style="background-color: #EEEEEE">
+						<div class="title" style="color:#034E06">First order special - $5 off</div> 
+						<div class="detail" style="color:#4F4E4E">
+							Sign up today!
+						</div> 
+						
+					</div>
+					<div class="sect2" style="background-image: url(davide-cantelli-jpkfc5_d-DI-unsplash.jpg); background-position: center; background-size: cover">
+						
+					</div>
+					
+				</div>
+				<div class="box">
+					<div class="sect1" style="background-color: #463434">
+						<div class="title" style="color: #FFFFFF">15% off on orders over $50</div> 
+						<div class="detail"style="color: #FAF798">
+							WEEKEND SALE
+						</div> 
+						
+					</div>
+					<div class="sect2" style="background-image: url(s-well-CJdZ800-Fbs-unsplash.jpg); background-position: center; background-size: cover">	
+					</div>
+				</div>
+				<div class="box">
+					<div class="sect1" style="background-color: #9ED004">
+						<div class="title">
+							<div>Spend $20,</div>
+							<div>$0 delivery fee</div>
+						</div> 
+						<div class="detail">
+							<div>Limited time offer</div>
+							<div>Mar. 15 - 19</div>
+						</div> 
+					
+					</div>
+					<div class="sect2" style="background-image: url(anna-pelzer-IGfIGP5ONV0-unsplash.jpg); background-position: center; background-size: cover">	
+					</div>
+				</div>
+				<div class="box">
+					<div class="sect1" style="background-color: #D3CBAF">
+						<div class="title" style="color: #000000">10% off any protein</div> 
+						
+					</div>
+					<div class="sect2" style="background-image: url(lily-banse--YHSwy6uqvk-unsplash.jpg); background-position: center; background-size: cover">	
+					</div>
+				</div>
+				<div class="box">
+					<div class="sect1" style="background-color: #D6AD2D">
+						<div class="title">10% off on all orders</div> 
+						<div class="detail" style="color: #FFF">
+							<div>ENDS TODAY!</div>
+						</div> 
+						
+					</div>
+					<div class="sect2" style="background-image: url(katie-smith-uQs1802D0CQ-unsplash.jpg); background-position: center; background-size: cover">	
+					</div>
+				</div>
         </article> <!-- article #about-container -->
 
         <footer id="footer-container">
@@ -32,3 +181,5 @@
         </footer> <!-- footer-->
     </div>
 </body>
+
+</html>
